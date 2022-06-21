@@ -27,8 +27,8 @@ class Square:
 
     def area(self):
         return self.__size * self.__size
-        
     """
+        
     functions to compare two objects
     eq: for equal
     ne: for not equal
@@ -36,6 +36,7 @@ class Square:
     gt: for the first is greater
     le: if the second is greater or equal
     ge: if the first is grater or equal
+    
     """
 
     def __eq__(self, other):
