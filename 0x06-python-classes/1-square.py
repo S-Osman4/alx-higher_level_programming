@@ -8,13 +8,10 @@ class Square:
             size (int): Size of square
             position (tuple): position of space and new lines
     """
-    def __init__(self, size=0, position=(0, 0)):
+    def __init__(self, size):
         """initializes
         Args:
             size (int): size
-            postion(tuple): postion
-        Returns:
-            None
         """
 
         self.size = size
