@@ -6,7 +6,6 @@ class Square:
     """ Square class defined
         Attributes:
             size (int): Size of square
-            position (tuple): position of space and new lines
     """
     def __init__(self, size):
         """initializes
