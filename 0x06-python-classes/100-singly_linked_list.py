@@ -2,7 +2,6 @@
 """ Singly linked list """
 
 
-
 class Node:
     """Type class node"""
     def __init__(self, data, next_node=None):
