@@ -4,5 +4,8 @@
 
 
 class Square:
-    """Empty class Square that defines a square. """
+    """Square class defined
+       Attributes:
+           
+    """
     pass
