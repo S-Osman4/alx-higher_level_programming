@@ -2,7 +2,6 @@
 """ Module """
 
 
-
 class Square:
     """Square class defined
        Attributes:
