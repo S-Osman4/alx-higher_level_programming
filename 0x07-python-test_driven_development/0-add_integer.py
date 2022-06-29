@@ -1,11 +1,7 @@
 #!/usr/bin/python3
 """
-add_integer module
-this function adds two integers
+add_integer module - this function adds two integers
 """
-
-
-
 def add_integer(a, b=98):
     """Return the integer addition of a an b
     Raise: TypeError
