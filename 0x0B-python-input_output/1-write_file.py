@@ -3,9 +3,8 @@
 
 
 def number_of_lines(filename=""):
-    """This function return the number of lines of a text file."""
-    with open(filename) as f:
-        total = 0
-        for run in enumerate(f):
-            total = total + 1
-    return total
+    """This function writes a string to  file overwrites if exist."""
+    with open(filename, mode='w', encoding='utf-8') as f:
+        len = f.write(text)
+
+    return len
