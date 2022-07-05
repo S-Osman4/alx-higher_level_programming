@@ -10,10 +10,10 @@ load_file = __import__('6-load_from_json_file').load_from_json_file
 """load: read a file and convert json data to object."""
 
 try:
-    container = load_from_json_file('add_item.json')
+    container = load_file('add_item.json')
 except:
     container = []
 
 for i in range(1, len(sys.argv)):
     container.append(sys.argv[i])
-save_to_json_file(container, 'add_item.json')
+save_file(container, 'add_item.json')
