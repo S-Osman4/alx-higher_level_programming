@@ -5,9 +5,9 @@ import unittest
 from models.base import Base
 from models.square import Square
 
+
 class Testsqr_instances(unittest.TestCase):
     """Type class unittest instance for rectangle"""
-
 
     def test_issqr(self):
         self.assertIsInstance(Square(10, 7), Base)
