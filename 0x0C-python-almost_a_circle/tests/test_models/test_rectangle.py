@@ -1,7 +1,9 @@
 #!/bin/usr/python3
 """Unittest for Rectangle"""
 
+from io import StringIO
 import unittest
+from unittest.mock import patch
 from models.base import Base
 from models.rectangle import Rectangle
 
