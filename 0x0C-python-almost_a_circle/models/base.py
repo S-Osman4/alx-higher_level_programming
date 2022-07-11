@@ -8,7 +8,6 @@ import turtle
 
 class Base:
     """Type class for base for all other classess"""
-
     __nb_objects = 0
 
     def __init__(self, id=None):
