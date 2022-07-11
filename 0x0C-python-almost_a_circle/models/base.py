@@ -112,7 +112,7 @@ class Base:
     @staticmethod
     def draw(list_rectangles, list_squares):
         """This method draws all the Rectangles and Squares."""
-         turtle.Screen()
+        turtle.Screen()
         turtle.bgcolor("#000C23")
         draw = turtle.Turtle()
 
