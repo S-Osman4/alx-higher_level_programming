@@ -29,18 +29,18 @@ class Square(Rectangle):
         """updates the square attributes taking into account
         the args and kwargs.
         """
-            if not args and not kwargs:
-                return
-            if args:
-                content = ["id", "size", "x", "y"]
+        if not args and not kwargs:
+            return
+        if args:
+            content = ["id", "size", "x", "y"]
 
-                for index, worth in enumerate(args):
-                    if index < len(content):
-                        setattr(self, content[index], worth)
-            else:
-                for key, value in kwargs.items():
-                    if hasattr(self, key):
-                        setattr(self, key, value)
+            for index, worth in enumerate(args):
+                if index < len(content):
+                    setattr(self, content[index], worth)
+        else:
+            for key, value in kwargs.items():
+                if hasattr(self, key):
+                    setattr(self, key, value)
 
     def to_dictionary(self):
         """This method returns the dictionary representation of a Square."""
