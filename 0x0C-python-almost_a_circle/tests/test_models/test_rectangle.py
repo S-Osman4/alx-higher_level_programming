@@ -5,9 +5,9 @@ import unittest
 from models.base import Base
 from models.rectangle import Rectangle
 
+
 class Testrec_instances(unittest.TestCase):
     """Type class unittest instance for rectangle"""
-    
 
     def test_isrec(self):
         self.assertIsInstance(Rectangle(10, 7), Base)
