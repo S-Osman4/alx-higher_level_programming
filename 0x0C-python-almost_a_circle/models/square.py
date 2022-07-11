@@ -26,8 +26,9 @@ class Square(Rectangle):
             .format(self.id, self.x, self.y, self.size)
 
     def update(self, *args, **kwargs):
-            """updates the square attributes taking into account the args and kwargs.
-            """
+        """updates the square attributes taking into account
+        the args and kwargs.
+        """
             if not args and not kwargs:
                 return
             if args:
