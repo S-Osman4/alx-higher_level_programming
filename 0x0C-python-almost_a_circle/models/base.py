@@ -1,9 +1,10 @@
 #!/usr/bin/python3
 """Module of Base """
-
+from os import path
 import json
 import csv
 import turtle
+import random
 
 
 class Base:
