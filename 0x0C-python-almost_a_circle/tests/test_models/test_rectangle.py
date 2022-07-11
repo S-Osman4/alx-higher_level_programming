@@ -7,6 +7,7 @@ from models.rectangle import Rectangle
 
 class Testrec_instances(unittest.TestCase):
     """Type class unittest instance for rectangle"""
+    
 
     def test_isrec(self):
         self.assertIsInstance(Rectangle(10, 7), Base)
@@ -94,6 +95,7 @@ class Testrec_instances(unittest.TestCase):
     def test_six_arg(self):
         with self.assertRaises(TypeError):
             Rectangle(10, 7, 2, 8, 4, 1)
+
 
 class Testrec_w(unittest.TestCase):
     """Type class unittest instance for rectangle"""
