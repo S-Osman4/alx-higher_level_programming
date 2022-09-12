@@ -20,7 +20,7 @@ if __name__ == "__main__":
     upper = "SELECT * FROM states WHERE name = '{}' ORDER BY states.id ASC"\
             .format(argv[4])
     cursor.execute(upper)
-    lists = cur.fetchall()
+    lists = cusor.fetchall()
     for row in lists:
         if row[1] == argv[4]:
             print(row)
