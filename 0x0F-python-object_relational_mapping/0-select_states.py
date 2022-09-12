@@ -26,10 +26,10 @@ if __name__ == "__main__":
     cursor.execute(sort)
     """Executes the given database operation (query or command)."""
 
-    list_of_tuples = cursor.fetchall()
-    """Fetches all rows of a query result set and returns a list of tuples."""
-    for _tuple in list_of_tuples:
-        print(_tuple)
+    lists = cursor.fetchall()
+    """Fetches all rows of a query result set and returns a list."""
+    for row in lists:
+        print(row)
 
     cursor.close()
     """
