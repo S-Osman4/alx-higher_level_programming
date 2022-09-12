@@ -25,8 +25,7 @@ if __name__ == "__main__":
     cursor = db.cursor()
     upper = "SELECT * FROM states WHERE name = %s ORDER BY states.id ASC"
     cursor.execute(upper, (argv[4],))
-    list_of_tuples = cursor.fetchall()
-    lists = cur.fetchall()
+    lists = cursor.fetchall()
     for row in lists:
         print(row)
 
