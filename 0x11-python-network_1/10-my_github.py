@@ -9,8 +9,8 @@ if __name__ == '__main__':
     import requests
     import sys
     
-    user = argv[1]
-    passwd = argv[2]
+    user = sys.argv[1]
+    passwd = sys.argv[2]
     url = "https://api.github.com/user"
     response = requests.get(url, auth=(user, passwd)).json()
 
