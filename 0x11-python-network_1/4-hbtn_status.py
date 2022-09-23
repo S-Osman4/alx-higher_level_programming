@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Python script that fetches https://alx-intranet.hbtn.io/status using requests"""
+"""script that fetches https://alx-intranet.hbtn.io/status using requests"""
 
 if __name__ == '__main__':
     import requests
