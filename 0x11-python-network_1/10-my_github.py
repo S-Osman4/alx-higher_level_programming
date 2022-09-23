@@ -9,7 +9,7 @@ if __name__ == '__main__':
     import requests
     import sys
     
-     url = "https://api.github.com/user"
+    url = "https://api.github.com/user"
     response = requests.get(url, auth=(user, passwd)).json()
 
     if "id" in response:
