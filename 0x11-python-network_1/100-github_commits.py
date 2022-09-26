@@ -18,9 +18,9 @@ if __name__ == '__main__':
         'per_page': 10,
     }
 
-    response = requests.get('https://api.github.com/repos/{}/{}/commits'.format(
+    respons = requests.get('https://api.github.com/repos/{}/{}/commits'.format(
                       owner, repository_name),
                       headers=headers, params=params)
-    json_response = response.json()
+    json_response = respons.json()
     for commit in json_response:
         print(commit['sha'] + ':', commit['commit']['author']['name'])
